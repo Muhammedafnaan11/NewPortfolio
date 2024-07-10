@@ -1,0 +1,735 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+    body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.l1{
+    padding:20px;
+}
+ h5:hover{
+    color:orangered;}
+    h1:hover{
+        color:orangered;
+    }
+    .start h1{
+        padding-left: 20px;
+    }
+   
+h5{
+    color:black;
+    font-family: "Pangolin", cursive;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+   
+
+h1,h5{ color: #080808; /* Change to your desired hover color */
+   cursor: pointer;
+   font-family: "Pangolin";}
+
+   .container h1:hover{
+    color:blue;
+   }
+   p:hover{
+   
+    cursor: pointer;
+   }
+ .start {
+    margin-top: 100px;
+  
+  
+ }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin:0;
+    color:black;
+    flex-wrap: wrap;
+    position: fixed;
+    width:95%;
+    z-index: 1;
+    background-color:aliceblue;
+   
+}
+
+
+.tec {
+    border-style: hidden;
+    border-color: white;
+     width:15vw;
+     transform :0.5s ease, box-shadow 0.5s ease;
+     color:aliceblue;
+     filter: brightness(1.0);
+        
+    
+}
+
+.tec:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    animation: skewPulse 2s infinite;/* Brighten the image */
+    cursor: pointer;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    text-transform: capitalize; 
+    flex-wrap: wrap;
+    font-family: "Pangolin", cursive;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    position: relative;
+  
+    cursor: pointer;
+    transition:0.3s ease;
+    flex-wrap: wrap;
+    font-size: 23px;
+    padding: 15px;
+}
+
+ul li:hover {
+    color:orangered; /* Change to your desired hover color */
+    transform: #2596be;
+    transform: scale(1.1); 
+    /* Slightly enlarge the item */
+}
+
+
+ul li:hover::after {
+    width: 100%;
+    left: 0;
+    background:#2596be;
+    border-bottom: 2px solid black;
+    /* Change to your desired underline color */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+div {
+    flex: 1 0 200px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.start p {
+    margin-top:30px;
+    font-family: "Pangolin";
+    text-align: justify;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-left:20px;
+}
+.img1 {
+    
+    width:37vw;
+    margin-left: 150px;
+    margin-top: 60px;
+    background-color:transparent;   
+    transition: 0.5s ease;
+    cursor: pointer;
+    animation: skewPulse 2s infinite;
+}
+
+.buttons{
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.sample {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.csspic, .csspic1 {
+    max-width: 48%;
+ 
+    box-sizing: border-box;
+}
+
+
+
+    
+
+.img1:hover{ 
+    transform: scale(1.1); /* Slightly enlarge the image */
+    filter: brightness(1.2); /* Brighten the image */
+    cursor: pointer;
+   
+    box-shadow: 0 0 10px  black;
+    background-color:blue;
+    
+
+}
+
+
+
+    #bt:hover {
+        background-color: white;
+        color: blue;
+        transform:scale(1.1); /* Optional: Adds a border */
+    }
+
+#bt{
+    margin: 0 10px; /* Adjust the margin value to control the gap between the buttons */
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Pangolin";
+    box-shadow:  1px 1px 1px 2px black;
+    width: 10vw;
+    font-size:20px;
+    outline: none;
+    border: none;
+  
+
+}
+
+
+
+.technical-skills h2:hover, .soft-skills h2:hover{
+    cursor: pointer;
+    color:blue;
+    transform: scale(1.1); 
+}
+
+
+.skill-box:hover{
+    color:blue;
+    transform: scale(1.1);
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0 20px;
+    margin: 0%;
+    margin-bottom: 50px;
+}
+
+.main-heading {
+    font-family: "Pangolin";
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+    padding:0;
+}
+.soft{
+    font-size: 25px;
+}
+.technical{
+    font-size: 25px;}
+.skills-sections {
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+}
+
+.technical-skills, .soft-skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 20px;
+}
+
+.technical {
+    font-family: "Pangolin";
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    width:fit-content;
+    margin: auto;
+    gap: 40px ;
+}
+
+.skill-box {
+    text-align: center;
+    padding: 20px 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+
+}
+
+.soft-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.soft-skills li {
+    font-family: "Pangolin";
+    font-size: 22px;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    padding:10px;
+}
+
+
+
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+   margin-top:50px;
+   
+}
+.container h1{
+    display: flex;
+    gap:10px;
+    
+    margin: 0%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.botttom-section h1{
+    text-align: justify;
+    margin-top: 20px;
+}
+.text-container h1:hover{
+    color: black;
+}
+
+
+
+
+
+
+h2 {
+    font-family: "Pangolin", cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para1 {
+    font-family: 'Sriracha';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+.main-container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.container h1{
+    font-family: "Pangolin";
+
+}
+
+.course5{
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    margin: 20px 40px;
+    flex: 1 1 30%;
+    color:black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    padding: 10px 20px;
+    max-width: 300px;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.course5:hover{
+    
+    background-color:black;
+    color:white;
+    transform: scale(1.2);
+}
+
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h2 {
+    font-family: "Pangolin";
+    color:black;
+    text-transform: capitalize; /* Capitalize the headings */
+    margin: 10px 0; /* Add some margin to center align */
+}
+
+.course5 p {
+    font-family: "Pangolin";
+    font-size:20px;
+    
+    
+}
+
+
+.bottom-section {
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px 0;
+    text-align: justify;
+    height: auto; /* Change height to auto */
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    margin: 20px 40px;
+    letter-spacing:1px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    padding: 10px 20px;
+    transition: 0.3s ease-in;
+}
+.bottom-section:hover{
+    transform:scale(1.1);
+}
+
+.text-container p, .text-container h1 {
+    color: black;
+    font-family: "Pangolin";
+    font-size: 20px; 
+}
+
+
+   
+.projects{
+    margin-top: 50px;
+    height:120vh;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.projects h1:hover{
+    color:black
+}
+.sample {
+    display:grid;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+    margin: 40px 0;
+    gap: 40px;
+    border-radius: 15px;
+    box-shadow:2px 2px  2px 2px transparent;
+  
+}
+.sample h2{
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-item {
+    display: flex;
+   
+    align-items: center;
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 0px 5px transparent;
+  
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.csspic, .csspic1 {
+    width:auto;
+    height: auto;
+    box-shadow: 0px 5px 5px black;
+    border-radius: 10px;
+}
+
+.portfolio-item:hover .csspic,
+.portfolio-item:hover .csspic1 {
+    transform:scale(1.02);
+    box-shadow: 0 8px 16px black;
+}
+
+.view-button {
+    margin-top: 20px;
+    padding: 12px 40px;
+    font-size: 18px;
+    color: white;
+    background-color:blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Pangolin", sans-serif;
+}
+
+.view-button:hover {
+    background-color:orangered;
+    color:white;
+    transform: scale(1.00);
+}
+
+
+
+
+
+.git{  /* Adjust the margin value to control the gap between the buttons */
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Pangolin";
+    box-shadow:  1px 1px 1px 2px black;
+    width: 10vw;
+    font-size:20px;
+    outline: none;
+    border: none;
+    
+}
+button:hover {
+    background-color: white;
+    color: blue;
+   
+}
+.projects p{
+    font-family: "Pangolin", cursive;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+    footer {
+        background-color: white;
+        text-align: center;
+        margin-top:40px;
+        font-size: 24px;
+        height:30vh;
+        border-radius: 10px;
+        box-shadow:2px 2px  2px 2px  transparent;
+
+    }
+      footer h2{
+       
+        font-size:40px;
+        margin-top:auto;
+        padding: 20px;
+        border-radius: 15px;
+      }
+      
+a{
+    text-decoration: #000000;
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.footerlogo {
+    display: flex;
+    margin:0 40px;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px;
+    color:black;
+    transition: color 0.3s;
+      gap:10px;
+    font-family: "Pangolin";
+    border-top: 3px solid black;
+    box-shadow:2px 2px  2px 2px  transparent;}
+  
+    .footerlogo i {
+        padding: 10px 20px;
+        animation: skewanimation 0.5s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes skewanimation {
+        0% {
+            transform: skew(0deg, 0deg);
+        }
+        100% {
+            transform: skew(5deg, 5deg);
+        }
+    }
+footer h2:hover{
+    color:blue;
+}
+
+
+.footerlogo i:hover {
+    transform: scale(1.1);
+       
+}
+@media (max-width: 620px) {
+    main{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .tec{
+        width: 40%;
+        height: 60%;
+    }
+   nav{
+    margin: 0%;
+    display: flex;
+    justify-content:space-between;
+
+   }
+   ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    gap: 3px;
+
+   }
+   .start{
+    margin-top: 50vh;
+    padding-top: 10px;
+   }
+   .technical{
+    margin-right:50px;
+   }
+   .technical-skills{
+    padding: 0;
+   }
+   .skill-grid{
+    padding-right: 30px;
+    padding: 0;
+   }
+   div{
+    padding: 0px;
+   }
+   .skills-section{
+    padding: 0px;
+   }
+    .skill-box{
+        padding-right: 100px;
+    }
+
+    .photo {
+        width: 50vw;
+        margin-left: 50px;
+    }
+
+    .img1 {
+        width: 50vw;
+        margin-left: 0;
+    }
+
+    .bottom-section {
+        text-align: justify;
+        width: 50vw;
+    }
+
+    .buttons button {
+        min-width: 150px; /* Set a minimum width for the buttons */
+    }
+
+    .text-container p, h1 {
+        text-align: left;
+    }
+
+    .bottom-section {
+        width: fit-content;
+    }
+
+    .git {
+        width: max-content;
+        min-width: 150px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row; /* Stack buttons vertically */
+        align-items: center; /* Center align items */
+        width: max-content; /* Adjust width to auto */
+        padding: 20px; /* Reduced padding for better fit on small screens */
+        gap: 10px; /* Added gap between buttons */
+    }
+
+    .sample {
+        display: flex;
+        flex-direction: row; /* Stack images vertically on smaller screens */
+        justify-content: center;
+
+    }
+    .footerlogo i{
+        font-size: 30px;
+    }
+
+
+    .csspic {
+    
+        min-width: 50px;
+    }
+    .csspic1{
+      
+        min-height:50px;
+    }
+    .project-main{
+        display:flex ;
+        flex-direction: column;
+
+    }
+}
